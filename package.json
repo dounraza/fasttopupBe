@@ -5,7 +5,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --respawn src/index.ts",
-    "build": "tsc",
+    "build": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,7 +22,8 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "helmet": "^8.1.0",
-    "jsonwebtoken": "^9.0.3"
+    "jsonwebtoken": "^9.0.3",
+    "typescript": "^6.0.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -30,7 +31,6 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^25.5.0",
     "nodemon": "^3.1.14",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^6.0.2"
+    "ts-node-dev": "^2.0.0"
   }
 }
